@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>EeshaNoor.FlaUI</RootNamespace>
+    <AssemblyName>FlaUIDesktopAutomation</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FlaUI.Core"          Version="4.0.0" />
+    <PackageReference Include="FlaUI.UIA3"          Version="4.0.0" />
+    <PackageReference Include="NUnit"               Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter"   Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="FluentAssertions"    Version="6.12.0" />
+  </ItemGroup>
+</Project>
